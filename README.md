@@ -8,7 +8,7 @@ $ yarn
 # stop all running docker instances
 $ docker stop $(docker ps -a -q)
 
-# host prisma docker image
+# host docker images
 $ docker-compose up -d
 
 # deploy prisma schema
