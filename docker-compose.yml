@@ -10,7 +10,7 @@ services:
         databases:
           default:
             connector: mongo
-            uri: mongodb://root:NZEnJqgKcc@localhost:27017/admin
+            uri: mongodb://root:NZEnJqgKcc@mongo:27017/admin
 
   mongo:
     image: mongo
