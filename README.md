@@ -4,7 +4,8 @@
 # install dependencies
 $ yarn
 
-# maybe stop all other docker instances
+# OPTIONAL
+# stop all running docker instances
 $ docker stop $(docker ps -a -q)
 
 # host prisma docker image
@@ -14,7 +15,7 @@ $ docker-compose up -d
 # $ npm install -g prisma
 $ prisma deploy
 
-# start dev environment (in new terminal)
+# start dev environment
 $ yarn start:dev
 ```
 
