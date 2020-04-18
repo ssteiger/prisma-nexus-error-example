@@ -45,7 +45,7 @@ $ docker logs <id>
 * `http://localhost:4466/_admin`
 * `http://localhost:4466/management`
 
-### MongoDB
+### MongoDB GUI
 
 * `http://localhost:8081`
 
