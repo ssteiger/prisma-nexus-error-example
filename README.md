@@ -10,7 +10,7 @@ $ docker stop $(docker ps -a -q)
 # host prisma docker image
 $ docker-compose up -d
 
-# deploy graphql app to prisma
+# deploy prisma schema
 # $ npm install -g prisma
 $ prisma deploy
 
