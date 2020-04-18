@@ -1,0 +1,13 @@
+datamodel: datamodel.prisma
+
+hooks:
+  post-deploy:
+    - prisma generate
+    - nexus-prisma-generate --output ../src/generated/nexus-prisma
+
+generate:
+  - generator: typescript-client
+    output: ../src/generated/prisma-client/
+
+# Specifies the HTTP endpoint of your Prisma API.
+endpoint: http://localhost:4466
